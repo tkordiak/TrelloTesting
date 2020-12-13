@@ -26,8 +26,7 @@ class TrelloCardTest(unittest.TestCase):
 
     def tearDown(self):
         # close the browser window
-        # self.driver.quit()
-        pass
+        self.driver.quit()
 
 
 if __name__ == '__main__':
